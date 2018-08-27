@@ -1,3 +1,1 @@
-# anandwana001.github.io
-
-Web Portfolio (Resume)
+# [anandwana001.github.io](anandwana001.github.io)
