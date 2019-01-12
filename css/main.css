@@ -267,39 +267,6 @@ dd {
 }
 
 /**
- * tables - (_document-setup.scss)
- * -------------------------------------------------------------------
- */
-table {
-	border-width: 0;
-	width: 100%;
-	max-width: 100%;
-	font-family: "poppins-semibold", sans-serif;
-}
-th, td {
-	padding: 1.5rem 3rem;
-	text-align: left;
-	border-bottom: 1px solid #E8E8E8;
-}
-th {
-	color: #313131;
-	font-family: "poppins-semibold", sans-serif;
-}
-td {
-	line-height: 1.5;
-}
-th:first-child, td:first-child {
-	padding-left: 0;
-}
-th:last-child, td:last-child {
-	padding-right: 0;
-}
-.table-responsive {
-	overflow-x: auto;
-	-webkit-overflow-scrolling: touch;
-}
-
-/**
  * Spacing - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
@@ -521,41 +488,6 @@ label > input[type="checkbox"], label > input[type="radio"] {
  *
  * -------------------------------------------------------------------
  */
-
-/**
- * alert box - (_alert-box.scss)
- * -------------------------------------------------------------------
- */
-.alert-box {
-	padding: 2.1rem 4rem 2.1rem 3rem;
-	position: relative;
-	margin-bottom: 3rem;
-	border-radius: 3px;
-	font-family: "poppins-semibold", sans-serif;
-	font-size: 1.5rem;
-}
-.alert-box .close {
-	position: absolute;
-	right: 1.8rem;
-	top: 1.8rem;
-	cursor: pointer;
-}
-.ss-error {
-	background-color: #ffd1d2;
-	color: #e65153;
-}
-.ss-success {
-	background-color: #c8e675;
-	color: #758c36;
-}
-.ss-info {
-	background-color: #d7ecfb;
-	color: #4a95cc;
-}
-.ss-notice {
-	background-color: #fff099;
-	color: #bba31b;
-}
 
 /**
  * additional typo styles - (_additional-typo.scss)
