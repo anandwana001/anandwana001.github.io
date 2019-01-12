@@ -61,9 +61,6 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
 }
-h3, .h03, h4, .h04 {
-	margin-bottom: 1.8rem;
-}
 h5, .h05, h6, .h06 {
 	font-family: "poppins-semibold";
 	margin-bottom: 1.2rem;
