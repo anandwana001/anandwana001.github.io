@@ -753,6 +753,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
+
 .intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-semibold", sans-serif;
@@ -766,6 +767,16 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
+	color: #a4c639;
+	font-family: "poppins-semibold", sans-serif;
+	font-size: 2.3rem;
+	line-height: 1.565;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.article-head h5 {
 	color: #a4c639;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.3rem;
@@ -855,6 +866,25 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	color: #a4c639;
 }
 
+.intro-blog {
+	margin: 20px;
+	font-size: 2.3rem;
+}
+.intro-blog li {
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+.intro-blog li a, .intro-blog li a:visited {
+	color: #FFFFFF;
+}
+.intro-blog li a:hover, .intro-blog li a:focus {
+	color: #a4c639;
+}
+
 
 .box-masonry {
   background: #151515;
@@ -892,6 +922,12 @@ font-family: "poppins-semibold", sans-serif;
 	.intro-social li {
 		margin: 0 15px;
 	}
+	.intro-blog {
+		font-size: 3rem;
+	}
+	.intro-blog li {
+		margin: 35px;
+	}
 }
 @media only screen and (max-width:768px) {
 	#intro {
@@ -903,6 +939,9 @@ font-family: "poppins-semibold", sans-serif;
 	.intro-content h5 {
 		font-size: 1.8rem;
 	}
+	.article-head h5 {
+		font-size: 1.8rem;
+	}
 	.intro-content .intro-position {
 		font-size: 1.3rem;
 	}
@@ -911,6 +950,12 @@ font-family: "poppins-semibold", sans-serif;
 	}
 	.intro-social li {
 		margin: 0 10px;
+	}
+	.intro-blog {
+		font-size: 2.5rem;
+	}
+	.intro-blog li {
+		margin: 20px;
 	}
 }
 @media only screen and (max-width:600px) {
@@ -926,6 +971,11 @@ font-family: "poppins-semibold", sans-serif;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
 	}
+	.article-head h5 {
+		font-size: 1.5rem;
+		margin-bottom: .3rem;
+		letter-spacing: .2rem;
+	}
 	.intro-content .intro-position {
 		font-size: 1.2rem;
 	}
@@ -937,5 +987,8 @@ font-family: "poppins-semibold", sans-serif;
 	}
 	.intro-social {
 		font-size: 2.4rem;
+	}
+	.intro-blog {
+		font-size: 1.4rem;
 	}
 }
