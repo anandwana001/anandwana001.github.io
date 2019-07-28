@@ -863,12 +863,11 @@ label > input[type="checkbox"], label > input[type="radio"] {
 
 .intro-social {
 	display: block;
-	position: absolute;
+	position: inherit;
 	width: 100%;
 	left: 0;
-	bottom: 9rem;
 	font-size: 3.3rem;
-	margin: 0;
+	margin: 5% 0% 0% 0%;
 	padding: 0;
 }
 .intro-social li {
