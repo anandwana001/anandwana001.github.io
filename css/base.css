@@ -39,7 +39,7 @@ html {
 *,
 ::after,
 ::before {
-  box-sizing: inherit
+  box-sizing: border-box;
 }
 
 body {
@@ -95,14 +95,6 @@ i {
 b {
   font-weight: 700;
   line-height: inherit
-}
-
-ul {
-  list-style: none
-}
-
-li {
-  display: block
 }
 
 a {
