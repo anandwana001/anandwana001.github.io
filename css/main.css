@@ -24,7 +24,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #073042;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -44,7 +44,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #a4c639;
+	color: #4285f4;
 	outline: 0;
 }
 
@@ -128,7 +128,7 @@ h5, .h05 {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #a4c639;
+	color: #3ddc84;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -138,7 +138,7 @@ h5, .h05 {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .article-head h5 {
-	color: #a4c639;
+	color: #3ddc84;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -148,7 +148,7 @@ h5, .h05 {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .books-head h5 {
-	color: #a4c639;
+	color: #3ddc84;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -212,7 +212,7 @@ h5, .h05 {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #a4c639;
+	color: #4285f4;
 }
 
 .intro-books {
@@ -231,7 +231,7 @@ h5, .h05 {
 	color: #FFFFFF;
 }
 .intro-books li a:hover, .intro-books li a:focus {
-	color: #a4c639;
+	color: #4285f4;
 }
 
 
@@ -247,7 +247,7 @@ h5, .h05 {
 	margin-bottom: 2rem;
 }
 .box-masonry h4 {
-	color: #a4c639;
+	color: #3ddc84;
 	font-family: "poppins-semibold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
