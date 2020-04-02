@@ -266,11 +266,14 @@ h5, .h05 {
 		font-size: 7.6rem;
 	}
 	.intro-social {
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 		font-size: 3rem;
+		padding: 0;
+margin-top: 10px;
 	}
-	.intro-social li {
-		margin: 0 15px;
-	}
+
 	.intro-books {
 		font-size: 3rem;
 	}
@@ -298,11 +301,17 @@ h5, .h05 {
 		font-size: 1.3rem;
 	}
 	.intro-social {
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 		font-size: 2.5rem;
+		padding: 0;
+margin-top: 10px;
 	}
-	.intro-social li {
-		margin: 0 10px;
-	}
+.intro-social li {
+  line-height: 50px;
+}
+
 	.intro-books {
 		font-size: 2.5rem;
 	}
@@ -344,6 +353,10 @@ h5, .h05 {
 	}
 	.intro-social {
 		font-size: 2.4rem;
+margin-top: 10px;
+	}
+	.intro-social li {
+	  line-height: 50px;
 	}
 	.intro-books {
 		font-size: 1.4rem;
