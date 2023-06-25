@@ -112,6 +112,10 @@ h6, .h06 {
 	text-align: center;
 }
 
+.profile-image {
+	border-radius: 50%;
+}
+
 .intro-content {
 	display: table-cell;
 	vertical-align: middle;
@@ -230,6 +234,16 @@ h6, .h06 {
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #4285f4;
+}
+
+.buy-coffee {
+	display: block;
+	position: inherit;
+	width: 100%;
+	left: 0;
+	font-size: 3.3rem;
+	margin: 5% 0% 0% 0%;
+	padding: 0;
 }
 
 .intro-books {
