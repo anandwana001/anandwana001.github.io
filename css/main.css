@@ -221,7 +221,7 @@ h6, .h06 {
 	width: 100%;
 	left: 0;
 	font-size: 3.3rem;
-	margin: 5% 0% 0% 0%;
+	margin: 3% 0% 0% 0%;
 	padding: 0;
 }
 .intro-social li {
@@ -234,6 +234,22 @@ h6, .h06 {
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #4285f4;
+}
+
+.intro-guide {
+	display: block;
+	position: inherit;
+	width: 100%;
+	left: 0;
+	font-size: 3.3rem;
+	margin: 2% 0% 0% 0%;
+	padding: 0;
+}
+
+.intro-guide li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
 }
 
 .buy-coffee {
@@ -305,6 +321,15 @@ h6, .h06 {
 margin-top: 10px;
 	}
 
+	.intro-guide {
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+		font-size: 3rem;
+		padding: 0;
+margin-top: 10px;
+	}
+
 	.intro-books {
 		font-size: 3rem;
 	}
@@ -339,9 +364,21 @@ margin-top: 10px;
 		padding: 0;
 margin-top: 10px;
 	}
+	.intro-guide {
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+		font-size: 2.5rem;
+		padding: 0;
+margin-top: 10px;
+	}
 .intro-social li {
   line-height: 50px;
 }
+
+.intro-guide li {
+	line-height: 50px;
+  }
 
 	.intro-books {
 		font-size: 2.5rem;
@@ -392,6 +429,13 @@ margin-top: 10px;
 margin-top: 10px;
 	}
 	.intro-social li {
+	  line-height: 50px;
+	}
+	.intro-guide {
+		font-size: 2.4rem;
+margin-top: 10px;
+	}
+	.intro-guide li {
 	  line-height: 50px;
 	}
 	.intro-books {
