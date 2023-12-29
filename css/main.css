@@ -111,6 +111,16 @@ h6, .h06 {
 	position: relative;
 	text-align: center;
 }
+#intro-youtube {
+	width: 100%;
+	min-height: 720px;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+.section-two {
+	margin-bottom: 40px;
+}
 
 .profile-image {
 	border-radius: 50%;
@@ -236,32 +246,6 @@ h6, .h06 {
 	color: #4285f4;
 }
 
-.intro-guide {
-	display: block;
-	position: inherit;
-	width: 100%;
-	left: 0;
-	font-size: 3.3rem;
-	margin: 2% 0% 0% 0%;
-	padding: 0;
-}
-
-.intro-guide li {
-	display: inline-block;
-	margin: 0 20px;
-	padding: 0;
-}
-
-.buy-coffee {
-	display: block;
-	position: inherit;
-	width: 100%;
-	left: 0;
-	font-size: 3.3rem;
-	margin: 5% 0% 0% 0%;
-	padding: 0;
-}
-
 .intro-books {
 	margin: 20px;
 	font-size: 2.3rem;
@@ -341,6 +325,9 @@ margin-top: 10px;
 	#intro {
 		min-height: 660px;
 	}
+	#intro-youtube {
+		min-height: 660px;
+	}
 	.intro-content h1 {
 		font-size: 5.2rem;
 	}
@@ -389,6 +376,9 @@ margin-top: 10px;
 }
 @media only screen and (max-width:600px) {
 	#intro {
+		min-height: 600px;
+	}
+	#intro-youtube {
 		min-height: 600px;
 	}
 	.intro-content h1 {
